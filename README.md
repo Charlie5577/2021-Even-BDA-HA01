@@ -20,6 +20,7 @@ hdfs dfs -cat /output/part-00000
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 references
+
 https://github.com/Overdrivr/monty-hall-problem
 
 http://www.science.smith.edu/dftwiki/index.php/Map-Reduce_Examples
