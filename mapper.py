@@ -5,12 +5,12 @@ choice_list = [1,2,3]
 prob = []
 
 choice_list = [x-1 for x in choice_list]
-win_tracker_yes_change=[]
+Winning_track=[]
 
 try:
     for li in sys.stdin:
         prob = []
-        for j in range(int(li)):
+        for j a range(int(li)):
             for i in range(1,10000):
                 random.shuffle(prize_list)             
                 my_choice=random.choice(choice_list)      
@@ -21,10 +21,10 @@ try:
                 else:
                     del ml[1]        
                 if 'Prize'== ml[0]:                     
-                    win_tracker_yes_change.append(1)    
+                    Winning_track.append(1)    
                 else:
-                    win_tracker_yes_change.append(0)    
-            prob.append(sum(win_tracker_yes_change)/len(win_tracker_yes_change))
+                    Winning_track.append(0)    
+            prob.append(sum(Winning_track)/len(Winning_track))
 
         print(prob)
 except e:
